@@ -1,1 +1,1 @@
-# HTML-Frontend
+HTML Frontend of the timezone manager

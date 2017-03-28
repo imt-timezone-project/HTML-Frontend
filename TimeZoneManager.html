@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    	<header>
+		    <div class="row">
+		      <div class="col-lg-12" id="bannière"> TimeZone Manager</div>
+		    </div>
+      </header>
+      <div class = "row" id="body">
+        <div class="col-lg-6" id = "partieGauche">
+        	<div class = "row">
+		        <div class="col-lg-6" id="moi">
+		        	Moi
+		        	<div class="row">
+		        		Choisissez votre fuseau :<br />
+		        		<select name="Fuseau">
+		        			<option>Paris</option>
+		        			<option>Pékin</option>
+		        		</select>
+		        	</div>
+		        	<div class="row">
+		        		Horaire à consulter : <br />
+		        		<input type="text" placeholder="Votre Horaire"> <br /><br /><br /><br />
+		        	</div>
+		       	</div>
+		        	
+		        <div class="col-lg-6" id="collaborateur">
+		        	Collaborateurs
+		        	<div class="row">
+		        		Nom du collaborateur :<br />
+		        		<input type="text" placeholder="Nom"> <br />
+		        		Son fuseau <br />
+		        		<select name="Fuseau" placeholder="Votre fuseau">
+		        			<option>Paris</option>
+		        			<option>Pékin</option>
+		        		</select>
+		        		<br />
+		        		<br />
+		        		<br /	>
+		        		<button> Ajouter Collaborateurs </button>
+		        	</div>
+		        </div>
+		    	</div>
+        </div>
+        <div class="col-lg-6" id="partieDroite">
+        	Tableaux des horaires
+        	<div class="row">
+        		<table class="table table-bordered table-striped table-condensed">
+        			<thead>
+        				<tr>
+        					<th>Moi</th>
+        					<th>Partenaire 1</th>
+        				</tr>
+        			</thead>
+        			<body>
+        				<tr>
+        					<th>17h42</th>
+        					<th>22h42</th>
+        				</tr>
+        			</body>
+        		</table>
+        		<br /><br /><br /><br /><br />
+        	</div>
+       	</div>
+      </div>
+    </div>
+  </body>
+</html>
